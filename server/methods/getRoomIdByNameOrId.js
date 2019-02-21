@@ -1,8 +1,8 @@
 // DEPRECATE
 import { Meteor } from 'meteor/meteor';
 import { check } from 'meteor/check';
-import { Rooms } from 'meteor/rocketchat:models';
-import { canAccessRoom } from 'meteor/rocketchat:authorization';
+import { Rooms } from '/app/rocketchat-models';
+import { canAccessRoom } from '/app/rocketchat-authorization';
 
 Meteor.methods({
 	getRoomIdByNameOrId(rid) {

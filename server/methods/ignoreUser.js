@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { check } from 'meteor/check';
-import { Subscriptions } from 'meteor/rocketchat:models';
+import { Subscriptions } from '/app/rocketchat-models';
 
 Meteor.methods({
 	ignoreUser({ rid, userId: ignoredUser, ignore = true }) {

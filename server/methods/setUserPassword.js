@@ -1,8 +1,8 @@
 import { Meteor } from 'meteor/meteor';
 import { check } from 'meteor/check';
 import { Accounts } from 'meteor/accounts-base';
-import { Users } from 'meteor/rocketchat:models';
-import { passwordPolicy } from 'meteor/rocketchat:lib';
+import { Users } from '/app/rocketchat-models';
+import { passwordPolicy } from '/app/rocketchat-lib';
 
 Meteor.methods({
 	setUserPassword(password) {

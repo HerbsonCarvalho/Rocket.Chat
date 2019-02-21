@@ -1,8 +1,8 @@
 import { Meteor } from 'meteor/meteor';
 import { Match, check } from 'meteor/check';
-import { Users, Rooms } from 'meteor/rocketchat:models';
-import { canAccessRoom } from 'meteor/rocketchat:authorization';
-import { settings } from 'meteor/rocketchat:settings';
+import { Users, Rooms } from '/app/rocketchat-models';
+import { canAccessRoom } from '/app/rocketchat-authorization';
+import { settings } from '/app/rocketchat-settings';
 
 Meteor.methods({
 	canAccessRoom(rid, userId, extraData) {

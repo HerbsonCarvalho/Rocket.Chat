@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
-import { ExportOperations } from 'meteor/rocketchat:models';
-import { settings } from 'meteor/rocketchat:settings';
+import { ExportOperations } from '/app/rocketchat-models';
+import { settings } from '/app/rocketchat-settings';
 import fs from 'fs';
 import path from 'path';
 

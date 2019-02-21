@@ -1,4 +1,4 @@
-import { Migrations } from 'meteor/rocketchat:migrations';
+import { Migrations } from '/app/rocketchat-migrations';
 
 Migrations.add({
 	version: 86,

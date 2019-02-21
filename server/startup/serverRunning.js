@@ -1,8 +1,8 @@
 import { Meteor } from 'meteor/meteor';
 import { MongoInternals } from 'meteor/mongo';
-import { SystemLogger } from 'meteor/rocketchat:logger';
-import { settings } from 'meteor/rocketchat:settings';
-import { Info } from 'meteor/rocketchat:utils';
+import { SystemLogger } from '/app/rocketchat-logger';
+import { settings } from '/app/rocketchat-settings';
+import { Info } from '/app/rocketchat-utils';
 import fs from 'fs';
 import path from 'path';
 import semver from 'semver';

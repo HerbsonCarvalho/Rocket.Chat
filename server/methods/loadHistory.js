@@ -1,9 +1,9 @@
 import { Meteor } from 'meteor/meteor';
 import { check } from 'meteor/check';
-import { Subscriptions } from 'meteor/rocketchat:models';
-import { hasPermission } from 'meteor/rocketchat:authorization';
-import { settings } from 'meteor/rocketchat:settings';
-import { loadMessageHistory } from 'meteor/rocketchat:lib';
+import { Subscriptions } from '/app/rocketchat-models';
+import { hasPermission } from '/app/rocketchat-authorization';
+import { settings } from '/app/rocketchat-settings';
+import { loadMessageHistory } from '/app/rocketchat-lib';
 
 const hideMessagesOfType = [];
 

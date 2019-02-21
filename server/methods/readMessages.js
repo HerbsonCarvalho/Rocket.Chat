@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { check } from 'meteor/check';
 import { ReadReceipt } from '../../imports/message-read-receipt/server/lib/ReadReceipt';
-import { Subscriptions } from 'meteor/rocketchat:models';
+import { Subscriptions } from '/app/rocketchat-models';
 
 Meteor.methods({
 	readMessages(rid) {

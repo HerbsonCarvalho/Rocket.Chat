@@ -1,6 +1,6 @@
-import { Migrations } from 'meteor/rocketchat:migrations';
-import { Settings } from 'meteor/rocketchat:models';
-import { getUsersInRole } from 'meteor/rocketchat:authorization';
+import { Migrations } from '/app/rocketchat-migrations';
+import { Settings } from '/app/rocketchat-models';
+import { getUsersInRole } from '/app/rocketchat-authorization';
 
 Migrations.add({
 	version: 117,

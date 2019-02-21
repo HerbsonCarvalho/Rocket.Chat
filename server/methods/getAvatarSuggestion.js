@@ -1,5 +1,5 @@
 import { Meteor } from 'meteor/meteor';
-import { getAvatarSuggestionForUser } from 'meteor/rocketchat:lib';
+import { getAvatarSuggestionForUser } from '/app/rocketchat-lib';
 
 Meteor.methods({
 	getAvatarSuggestion() {

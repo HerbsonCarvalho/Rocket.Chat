@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { check } from 'meteor/check';
-import { composeMessageObjectWithUser } from 'meteor/rocketchat:utils';
-import { Messages } from 'meteor/rocketchat:models';
+import { composeMessageObjectWithUser } from '/app/rocketchat-utils';
+import { Messages } from '/app/rocketchat-models';
 
 Meteor.publish('messages', function(rid/* , start*/) {
 	if (!this.userId) {

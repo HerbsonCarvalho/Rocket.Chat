@@ -1,8 +1,8 @@
-import { RocketChatFile } from 'meteor/rocketchat:file';
-import { FileUpload } from 'meteor/rocketchat:file-upload';
-import { Migrations } from 'meteor/rocketchat:migrations';
-import { Users } from 'meteor/rocketchat:models';
-import { getAvatarSuggestionForUser } from 'meteor/rocketchat:lib';
+import { RocketChatFile } from '/app/rocketchat-file';
+import { FileUpload } from '/app/rocketchat-file-upload';
+import { Migrations } from '/app/rocketchat-migrations';
+import { Users } from '/app/rocketchat-models';
+import { getAvatarSuggestionForUser } from '/app/rocketchat-lib';
 
 Migrations.add({
 	version: 2,

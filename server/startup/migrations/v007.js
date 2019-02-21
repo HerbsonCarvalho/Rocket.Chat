@@ -1,6 +1,6 @@
-import { OEmbed } from 'meteor/rocketchat:oembed';
-import { Migrations } from 'meteor/rocketchat:migrations';
-import { Messages } from 'meteor/rocketchat:models';
+import { OEmbed } from '/app/rocketchat-oembed';
+import { Migrations } from '/app/rocketchat-migrations';
+import { Messages } from '/app/rocketchat-models';
 import _ from 'underscore';
 
 Migrations.add({

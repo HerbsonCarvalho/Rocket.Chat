@@ -1,8 +1,8 @@
 import { Meteor } from 'meteor/meteor';
 import { check } from 'meteor/check';
-import { Messages } from 'meteor/rocketchat:models';
-import { settings } from 'meteor/rocketchat:settings';
-import { composeMessageObjectWithUser } from 'meteor/rocketchat:utils';
+import { Messages } from '/app/rocketchat-models';
+import { settings } from '/app/rocketchat-settings';
+import { composeMessageObjectWithUser } from '/app/rocketchat-utils';
 
 Meteor.methods({
 	loadSurroundingMessages(message, limit = 50) {

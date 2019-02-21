@@ -1,6 +1,6 @@
 import { FlowRouter } from 'meteor/kadira:flow-router';
-import { ChatSubscription } from 'meteor/rocketchat:models';
-import { roomTypes } from 'meteor/rocketchat:utils';
+import { ChatSubscription } from '/app/rocketchat-models';
+import { roomTypes } from '/app/rocketchat-utils';
 
 FlowRouter.goToRoomById = (roomId) => {
 	const subscription = ChatSubscription.findOne({ rid: roomId });

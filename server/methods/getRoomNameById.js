@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { check } from 'meteor/check';
-import { Rooms, Subscriptions } from 'meteor/rocketchat:models';
-import { hasPermission } from 'meteor/rocketchat:authorization';
+import { Rooms, Subscriptions } from '/app/rocketchat-models';
+import { hasPermission } from '/app/rocketchat-authorization';
 
 Meteor.methods({
 	getRoomNameById(rid) {

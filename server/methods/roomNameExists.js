@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { check } from 'meteor/check';
-import { Rooms } from 'meteor/rocketchat:models';
+import { Rooms } from '/app/rocketchat-models';
 
 Meteor.methods({
 	roomNameExists(rid) {

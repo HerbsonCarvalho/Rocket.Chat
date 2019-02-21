@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { Tracker } from 'meteor/tracker';
-import { Users } from 'meteor/rocketchat:models';
+import { Users } from '/app/rocketchat-models';
 import moment from 'moment';
 
 Meteor.startup(function() {

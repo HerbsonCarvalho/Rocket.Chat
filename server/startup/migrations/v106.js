@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
-import { LivechatVisitors } from 'meteor/rocketchat:models';
-import { Migrations } from 'meteor/rocketchat:migrations';
+import { LivechatVisitors } from '/app/rocketchat-models';
+import { Migrations } from '/app/rocketchat-migrations';
 
 Migrations.add({
 	version: 106,

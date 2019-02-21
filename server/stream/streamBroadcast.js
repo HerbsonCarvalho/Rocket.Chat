@@ -4,10 +4,10 @@ import { check } from 'meteor/check';
 import _ from 'underscore';
 import { DDP } from 'meteor/ddp';
 import { DDPCommon } from 'meteor/ddp-common';
-import { Logger, LoggerManager } from 'meteor/rocketchat:logger';
-import { hasPermission } from 'meteor/rocketchat:authorization';
-import { settings } from 'meteor/rocketchat:settings';
-import { isDocker } from 'meteor/rocketchat:utils';
+import { Logger, LoggerManager } from '/app/rocketchat-logger';
+import { hasPermission } from '/app/rocketchat-authorization';
+import { settings } from '/app/rocketchat-settings';
+import { isDocker } from '/app/rocketchat-utils';
 
 process.env.PORT = String(process.env.PORT).trim();
 process.env.INSTANCE_IP = String(process.env.INSTANCE_IP).trim();

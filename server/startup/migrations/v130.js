@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import Future from 'fibers/future';
-import { Migrations } from 'meteor/rocketchat:migrations';
-import { Rooms, Subscriptions, Users } from 'meteor/rocketchat:models';
+import { Migrations } from '/app/rocketchat-migrations';
+import { Rooms, Subscriptions, Users } from '/app/rocketchat-models';
 
 Migrations.add({
 	version: 130,

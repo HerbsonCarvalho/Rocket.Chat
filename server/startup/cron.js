@@ -1,10 +1,10 @@
 import { Meteor } from 'meteor/meteor';
 import { HTTP } from 'meteor/http';
-import { Logger } from 'meteor/rocketchat:logger';
-import { getWorkspaceAccessToken } from 'meteor/rocketchat:cloud';
+import { Logger } from '/app/rocketchat-logger';
+import { getWorkspaceAccessToken } from '/app/rocketchat-cloud';
 import { SyncedCron } from 'meteor/littledata:synced-cron';
-import { statistics } from 'meteor/rocketchat:statistics';
-import { settings } from 'meteor/rocketchat:settings';
+import { statistics } from '/app/rocketchat-statistics';
+import { settings } from '/app/rocketchat-settings';
 
 const logger = new Logger('SyncedCron');
 

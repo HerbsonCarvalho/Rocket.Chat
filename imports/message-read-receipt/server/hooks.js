@@ -1,5 +1,5 @@
-import { callbacks } from 'meteor/rocketchat:callbacks';
-import { Subscriptions } from 'meteor/rocketchat:models';
+import { callbacks } from '/app/rocketchat-callbacks';
+import { Subscriptions } from '/app/rocketchat-models';
 import { ReadReceipt } from './lib/ReadReceipt';
 
 callbacks.add('afterSaveMessage', (message, room) => {

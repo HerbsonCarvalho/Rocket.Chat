@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { Match, check } from 'meteor/check';
-import { Subscriptions, Messages } from 'meteor/rocketchat:models';
-import { settings } from 'meteor/rocketchat:settings';
+import { Subscriptions, Messages } from '/app/rocketchat-models';
+import { settings } from '/app/rocketchat-settings';
 import s from 'underscore.string';
 
 Meteor.methods({

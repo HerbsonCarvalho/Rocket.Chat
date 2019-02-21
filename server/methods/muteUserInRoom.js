@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { Match, check } from 'meteor/check';
-import { Rooms, Subscriptions, Users, Messages } from 'meteor/rocketchat:models';
-import { hasPermission } from 'meteor/rocketchat:authorization';
+import { Rooms, Subscriptions, Users, Messages } from '/app/rocketchat-models';
+import { hasPermission } from '/app/rocketchat-authorization';
 
 Meteor.methods({
 	muteUserInRoom(data) {

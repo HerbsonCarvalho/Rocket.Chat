@@ -1,8 +1,8 @@
 import { Meteor } from 'meteor/meteor';
 import { Tracker } from 'meteor/tracker';
-import { ChatMessage } from 'meteor/rocketchat:models';
-import { hasAtLeastOnePermission } from 'meteor/rocketchat:authorization';
-import { settings } from 'meteor/rocketchat:settings';
+import { ChatMessage } from '/app/rocketchat-models';
+import { hasAtLeastOnePermission } from '/app/rocketchat-authorization';
+import { settings } from '/app/rocketchat-settings';
 import _ from 'underscore';
 import moment from 'moment';
 

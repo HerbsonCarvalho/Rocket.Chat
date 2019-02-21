@@ -1,5 +1,5 @@
-import { Migrations } from 'meteor/rocketchat:migrations';
-import { Rooms, Messages } from 'meteor/rocketchat:models';
+import { Migrations } from '/app/rocketchat-migrations';
+import { Rooms, Messages } from '/app/rocketchat-models';
 import s from 'underscore.string';
 
 Migrations.add({

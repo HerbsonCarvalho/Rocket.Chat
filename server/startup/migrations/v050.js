@@ -1,5 +1,5 @@
-import { Migrations } from 'meteor/rocketchat:migrations';
-import { Subscriptions } from 'meteor/rocketchat:models';
+import { Migrations } from '/app/rocketchat-migrations';
+import { Subscriptions } from '/app/rocketchat-models';
 
 Migrations.add({
 	version: 50,

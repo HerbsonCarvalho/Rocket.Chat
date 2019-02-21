@@ -5,8 +5,8 @@ import { Blaze } from 'meteor/blaze';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { BlazeLayout } from 'meteor/kadira:blaze-layout';
 import { Session } from 'meteor/session';
-import { KonchatNotification } from 'meteor/rocketchat:ui';
-import { Layout } from 'meteor/rocketchat:ui-utils';
+import { KonchatNotification } from '/app/rocketchat-ui';
+import { Layout } from '/app/rocketchat-ui-utils';
 import s from 'underscore.string';
 
 Blaze.registerHelper('pathFor', function(path, kw) {

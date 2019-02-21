@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { Match, check } from 'meteor/check';
-import { Users, Subscriptions } from 'meteor/rocketchat:models';
+import { Users, Subscriptions } from '/app/rocketchat-models';
 
 Meteor.methods({
 	saveUserPreferences(settings) {

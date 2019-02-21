@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { Mongo } from 'meteor/mongo';
-import { Migrations } from 'meteor/rocketchat:migrations';
-import { Uploads, Messages } from 'meteor/rocketchat:models';
+import { Migrations } from '/app/rocketchat-migrations';
+import { Uploads, Messages } from '/app/rocketchat-models';
 
 Migrations.add({
 	version: 15,

@@ -1,11 +1,11 @@
 import { Meteor } from 'meteor/meteor';
 import { Tracker } from 'meteor/tracker';
 import { TimeSync } from 'meteor/mizzao:timesync';
-import { t } from 'meteor/rocketchat:utils';
-import { ChatMessage } from 'meteor/rocketchat:models';
-import { hasAtLeastOnePermission } from 'meteor/rocketchat:authorization';
-import { settings } from 'meteor/rocketchat:settings';
-import { callbacks } from 'meteor/rocketchat:callbacks';
+import { t } from '/app/rocketchat-utils';
+import { ChatMessage } from '/app/rocketchat-models';
+import { hasAtLeastOnePermission } from '/app/rocketchat-authorization';
+import { settings } from '/app/rocketchat-settings';
+import { callbacks } from '/app/rocketchat-callbacks';
 import _ from 'underscore';
 import moment from 'moment';
 import toastr from 'toastr';

@@ -1,11 +1,11 @@
 import { Meteor } from 'meteor/meteor';
 import { Match } from 'meteor/check';
 import { Mongo } from 'meteor/mongo';
-import { RocketChatFile } from 'meteor/rocketchat:file';
-import { SystemLogger } from 'meteor/rocketchat:logger';
-import { FileUpload } from 'meteor/rocketchat:file-upload';
-import { Migrations } from 'meteor/rocketchat:migrations';
-import { Uploads, Settings, Users } from 'meteor/rocketchat:models';
+import { RocketChatFile } from '/app/rocketchat-file';
+import { SystemLogger } from '/app/rocketchat-logger';
+import { FileUpload } from '/app/rocketchat-file-upload';
+import { Migrations } from '/app/rocketchat-migrations';
+import { Uploads, Settings, Users } from '/app/rocketchat-models';
 import fs from 'fs';
 import path from 'path';
 

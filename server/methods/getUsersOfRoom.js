@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
-import { Subscriptions } from 'meteor/rocketchat:models';
-import { hasPermission } from 'meteor/rocketchat:authorization';
+import { Subscriptions } from '/app/rocketchat-models';
+import { hasPermission } from '/app/rocketchat-authorization';
 
 Meteor.methods({
 	async getUsersOfRoom(rid, showAll) {

@@ -1,9 +1,9 @@
 import { Meteor } from 'meteor/meteor';
-import { roomTypes } from 'meteor/rocketchat:utils';
-import { hasPermission } from 'meteor/rocketchat:authorization';
-import { Rooms, Subscriptions } from 'meteor/rocketchat:models';
-import { settings } from 'meteor/rocketchat:settings';
-import { Notifications } from 'meteor/rocketchat:notifications';
+import { roomTypes } from '/app/rocketchat-utils';
+import { hasPermission } from '/app/rocketchat-authorization';
+import { Rooms, Subscriptions } from '/app/rocketchat-models';
+import { settings } from '/app/rocketchat-settings';
+import { Notifications } from '/app/rocketchat-notifications';
 import _ from 'underscore';
 
 const fields = {

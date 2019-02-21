@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
-import { Migrations } from 'meteor/rocketchat:migrations';
-import { addUserRoles } from 'meteor/rocketchat:authorization';
-import { Rooms, Subscriptions, Messages } from 'meteor/rocketchat:models';
+import { Migrations } from '/app/rocketchat-migrations';
+import { addUserRoles } from '/app/rocketchat-authorization';
+import { Rooms, Subscriptions, Messages } from '/app/rocketchat-models';
 import _ from 'underscore';
 
 Migrations.add({

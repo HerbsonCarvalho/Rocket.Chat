@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { Random } from 'meteor/random';
-import { ReadReceipts, Subscriptions, Messages, Rooms, Users } from 'meteor/rocketchat:models';
-import { settings } from 'meteor/rocketchat:settings';
+import { ReadReceipts, Subscriptions, Messages, Rooms, Users } from '/app/rocketchat-models';
+import { settings } from '/app/rocketchat-settings';
 
 const rawReadReceipts = ReadReceipts.model.rawCollection();
 

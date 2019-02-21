@@ -3,9 +3,9 @@ import { Mongo } from 'meteor/mongo';
 import { ReactiveVar } from 'meteor/reactive-var';
 import { Tracker } from 'meteor/tracker';
 import { Template } from 'meteor/templating';
-import { t } from 'meteor/rocketchat:utils';
-import { modal, SideNav } from 'meteor/rocketchat:ui-utils';
-import { hasAllPermission } from 'meteor/rocketchat:authorization';
+import { t } from '/app/rocketchat-utils';
+import { modal, SideNav } from '/app/rocketchat-ui-utils';
+import { hasAllPermission } from '/app/rocketchat-authorization';
 import toastr from 'toastr';
 import moment from 'moment';
 

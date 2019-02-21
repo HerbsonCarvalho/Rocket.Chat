@@ -1,5 +1,5 @@
-import { Migrations } from 'meteor/rocketchat:migrations';
-import { Settings } from 'meteor/rocketchat:models';
+import { Migrations } from '/app/rocketchat-migrations';
+import { Settings } from '/app/rocketchat-models';
 
 const majorColors = {
 	'content-background-color': '#FFFFFF',

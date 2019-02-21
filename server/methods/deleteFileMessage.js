@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { check } from 'meteor/check';
-import { FileUpload } from 'meteor/rocketchat:file-upload';
-import { Messages } from 'meteor/rocketchat:models';
+import { FileUpload } from '/app/rocketchat-file-upload';
+import { Messages } from '/app/rocketchat-models';
 
 Meteor.methods({
 	deleteFileMessage(fileID) {

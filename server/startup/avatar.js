@@ -3,10 +3,10 @@ import { Meteor } from 'meteor/meteor';
 import _ from 'underscore';
 import sharp from 'sharp';
 import { Cookies } from 'meteor/ostrio:cookies';
-import { FileUpload } from 'meteor/rocketchat:file-upload';
-import { getAvatarColor } from 'meteor/rocketchat:utils';
-import { Users, Avatars } from 'meteor/rocketchat:models';
-import { settings } from 'meteor/rocketchat:settings';
+import { FileUpload } from '/app/rocketchat-file-upload';
+import { getAvatarColor } from '/app/rocketchat-utils';
+import { Users, Avatars } from '/app/rocketchat-models';
+import { settings } from '/app/rocketchat-settings';
 
 const cookie = new Cookies();
 

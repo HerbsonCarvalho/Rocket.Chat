@@ -1,5 +1,5 @@
 import { Meteor } from 'meteor/meteor';
-import { ChatSubscription } from 'meteor/rocketchat:models';
+import { ChatSubscription } from '/app/rocketchat-models';
 
 Meteor.methods({
 	toggleFavorite(rid, f) {

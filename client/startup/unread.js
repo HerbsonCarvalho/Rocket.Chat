@@ -2,11 +2,11 @@ import { Meteor } from 'meteor/meteor';
 import { Tracker } from 'meteor/tracker';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { Session } from 'meteor/session';
-import { Favico } from 'meteor/rocketchat:favico';
-import { ChatSubscription } from 'meteor/rocketchat:models';
-import { RoomManager, menu, fireGlobalEvent, readMessage } from 'meteor/rocketchat:ui-utils';
-import { getUserPreference } from 'meteor/rocketchat:utils';
-import { settings } from 'meteor/rocketchat:settings';
+import { Favico } from '/app/rocketchat-favico';
+import { ChatSubscription } from '/app/rocketchat-models';
+import { RoomManager, menu, fireGlobalEvent, readMessage } from '/app/rocketchat-ui-utils';
+import { getUserPreference } from '/app/rocketchat-utils';
+import { settings } from '/app/rocketchat-settings';
 
 Meteor.startup(function() {
 	Tracker.autorun(function() {

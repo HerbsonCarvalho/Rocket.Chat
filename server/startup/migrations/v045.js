@@ -1,6 +1,6 @@
-import { Migrations } from 'meteor/rocketchat:migrations';
-import { Users } from 'meteor/rocketchat:models';
-import { settings } from 'meteor/rocketchat:settings';
+import { Migrations } from '/app/rocketchat-migrations';
+import { Users } from '/app/rocketchat-models';
+import { settings } from '/app/rocketchat-settings';
 
 Migrations.add({
 	version: 45,
